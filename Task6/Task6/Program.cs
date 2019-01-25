@@ -6,6 +6,7 @@ namespace Task6
     {
         public static void TaxCalculation(double orderTotal, double localTax, double stateTax, double grandTotal)
         {
+            //Good
             localTax = (orderTotal * localTax);
             stateTax = (orderTotal * stateTax);
             grandTotal = (orderTotal + localTax + stateTax);
